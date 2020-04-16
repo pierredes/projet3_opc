@@ -138,6 +138,63 @@
     }
 }
 
+/* version portable */
+
+@media (max-width: 767px) {
+  
+    /* general */
+
+    .couleur {
+        background-color: green;
+        color: orange;
+    }
+
+    .container-fluid {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    /* header */
+
+    header {
+        margin-bottom: 8%;
+        height: 100px;
+    }
+
+    h1 {
+        height: 100px;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    /* partie central */
+
+    img {
+        width: 223.125px;
+        height: 315.75px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    /* footer */
+
+    footer {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+} 
+
 
 
 
