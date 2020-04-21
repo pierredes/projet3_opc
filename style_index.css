@@ -4,6 +4,10 @@
 
     /* general */
 
+    body {
+        margin: 0;
+    }
+
     .couleur {
         background-color: green;
         color: orange;
@@ -25,6 +29,7 @@
     /* header */
 
     header {
+        margin-top: 0;
         margin-bottom: 3%;
         height: 100px;
     }
@@ -32,7 +37,9 @@
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
@@ -61,7 +68,8 @@
     }
 
     #prochainement p {
-        padding: 3px 0;
+        padding: 10px 0;
+        margin: 0
     }
 
     /* footer */
@@ -72,14 +80,16 @@
     }
 
     #mention p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: left;
         padding-left: 20px;
         float: left;
     }
 
     #contact p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: right;
         padding-right: 20px;
         float: right;
@@ -91,6 +101,10 @@
 @media (max-width: 991px) and (min-width: 768px) {
    
     /* general */
+
+    body {
+        margin: 0;
+    }
 
     .couleur {
         background-color: green;
@@ -105,6 +119,7 @@
     /* header */
 
     header {
+        margin-top: 0;
         margin-bottom: 3%;
         height: 100px;
     }
@@ -112,7 +127,9 @@
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
@@ -140,7 +157,8 @@
     }
 
     #prochainement p {
-        padding: 3px 0;
+        margin: 0;
+        padding: 10px 0;
     }
 
     /* footer */
@@ -151,14 +169,16 @@
     }
 
     #mention p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: left;
         padding-left: 20px;
         float: left;
     }
 
     #contact p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: right;
         padding-right: 20px;
         float: right;
@@ -170,6 +190,10 @@
 @media (max-width: 767px) {
   
     /* general */
+
+    body {
+        margin: 0;
+    }
 
     .couleur {
         background-color: green;
@@ -184,6 +208,7 @@
     /* header */
 
     header {
+        margin-top: 0;
         margin-bottom: 3%;
         height: 100px;
     }
@@ -191,7 +216,9 @@
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
@@ -219,7 +246,8 @@
     }
 
     #prochainement p {
-        padding: 3px 0;
+        margin: 0;
+        padding: 10px 0;
     }
 
     /* footer */
@@ -227,6 +255,16 @@
     footer {
         margin-bottom: 5%;
         text-align: center;
+    }
+
+    #mention p {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #contact p {
+        margin: 0;
+        padding: 10px 0;
     }
 
 }  
