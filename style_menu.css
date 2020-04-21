@@ -4,15 +4,21 @@
 
     /* general */
 
+    body {
+        margin: 0;
+    }
+
     .couleur {
         background-color: green;
         color: orange;
     }
 
-    .container-fluid {
+    #global {
         margin: 0;
-        padding: 0 !important;
-        width: 1000px !important;
+        padding: 0;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     p {
@@ -23,6 +29,7 @@
     /* header */
 
     header {
+        margin-top: 0;
         margin-bottom: 3%;
         height: 100px;
     }
@@ -30,19 +37,26 @@
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
 
     h2 {
         text-align: center;
+        font-size: 2rem;
+    }
+
+    #menus {
+        text-align: center;
     }
 
     img {
         width: 595px;
         height: 842px;
-        margin-bottom: 5%; 
+        margin-bottom: 5%;
     }
 
     /* footer */
@@ -53,17 +67,20 @@
     }
 
     #mention p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: left;
         padding-left: 20px;
+        float: left;
     }
 
     #contact p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: right;
         padding-right: 20px;
+        float: right;
     }
-
 }
 
 /* Version tablette */
@@ -72,18 +89,18 @@
    
     /* general */
 
-    div {
+    body {
+        margin: 0;
+    }
+
+    #global {
+        margin: 0;
         padding: 0;
     }
 
     .couleur {
         background-color: green;
         color: orange;
-    }
-
-    .container-fluid {
-        margin: 0;
-        padding: 0 !important;
     }
 
     p {
@@ -94,6 +111,7 @@
     /* header */
 
     header {
+        margin-top: 0;
         margin-bottom: 3%;
         height: 100px;
     }
@@ -101,21 +119,26 @@
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #menus {
+        text-align: center;
+    }
 
     img {
         width: 297.5px;
         height: 421px;
         margin-bottom: 5%; 
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-
-    h2 {
-        text-align: center;
     }
 
     /* footer */
@@ -126,15 +149,19 @@
     }
 
     #mention p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: left;
         padding-left: 20px;
+        float: left;
     }
 
     #contact p {
-        padding: 5px 0;
+        margin: 0;
+        padding: 10px 0;
         text-align: right;
         padding-right: 20px;
+        float: right;
     }
 }
 
@@ -144,14 +171,13 @@
   
     /* general */
 
+    body {
+        margin: 0;
+    }
+
     .couleur {
         background-color: green;
         color: orange;
-    }
-
-    .container-fluid {
-        margin: 0;
-        padding: 0 !important;
     }
 
     p {
@@ -162,28 +188,34 @@
     /* header */
 
     header {
-        margin-bottom: 8%;
+        margin-top: 0;
+        margin-bottom: 3%;
         height: 100px;
     }
 
     h1 {
         height: 100px;
         text-align: center;
+        margin: 0;
         padding: 20px 0;
+        font-size: 2.5rem;
     }
 
     /* partie central */
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #menus {
+        text-align: center;
+    }
 
     img {
         width: 223.125px;
         height: 315.75px;
         margin-bottom: 5%;
-        margin-top: 5%;
-    }
-
-    h2 {
-        text-align: center;
-        margin-top: 10%;
     }
 
     /* footer */
@@ -193,7 +225,17 @@
         text-align: center;
     }
 
-} 
+    #mention p {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #contact p {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+}  
 
 
 
