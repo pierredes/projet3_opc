@@ -8,6 +8,10 @@
         margin: 0;
     }
 
+    h1, h2, h3, h4, h5 {
+        text-align: center;
+    }
+
     .couleur {
         background-color: green;
         color: orange;
@@ -19,11 +23,6 @@
         width: 1000px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    p {
-        font-weight: 500;
-        font-size: 24px;
     }
 
     a {
@@ -41,7 +40,6 @@
 
     h1 {
         height: 100px;
-        text-align: center;
         margin: 0;
         padding: 20px 0;
         font-size: 2.5rem;
@@ -49,19 +47,109 @@
 
     /* partie central */
 
-    h2 {
-        text-align: center;
-        font-size: 2rem;
-    }
+    /* Premier menu */
 
-    #menus {
-        text-align: center;
-    }
-
-    img {
+    #note_enchantee {
         width: 595px;
         height: 842px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: pink;
         margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_note {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    
+    i {
+        color: red;
+    }
+
+    .menu_note {
+        padding-bottom: 5%;
+    }
+
+    .menu_note h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .menu_note h4 .note_entreeplatdessert {
+        background: pink;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    .fin_note h5 {
+        margin-top: 5px;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .fin_note {
+        justify-content: center;
+        display: flex;
+    }
+
+    #note_enchantee .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #note_enchantee p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    /* second menu */
+
+    #chic_francaise {
+        width: 595px;
+        height: 842px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: pink;
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_chic {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .menu_chic{
+        padding-bottom: 5%;
+    }
+
+    .menu_chic h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .menu_chic h4 .chic_entreeplatdessert {
+        background: pink;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #chic_francaise .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #chic_francaise p {
+        padding-left: 50px;
+        text-align: left;
     }
 
     /* footer */
@@ -77,6 +165,8 @@
         text-align: left;
         padding-left: 20px;
         float: left;
+        font-weight: 500;
+        font-size: 24px;
     }
 
     #contact p {
@@ -85,6 +175,8 @@
         text-align: right;
         padding-right: 20px;
         float: right;
+        font-weight: 500;
+        font-size: 24px;
     }
 }
 
@@ -108,6 +200,10 @@
         color: orange;
     }
 
+    h1, h2, h3, h4, h5 {
+        text-align: center;
+    }
+
     p {
         font-weight: 500;
         font-size: 24px;
@@ -136,19 +232,59 @@
 
     /* partie central */
 
-    h2 {
-        text-align: center;
-        font-size: 2rem;
+    #note_enchantee {
+        background-color: pink;
+        margin-bottom: 5%;
+        font-style: italic;
     }
 
-    #menus {
+    .debut_note {
+        padding-top: 5%;
+        padding-bottom: 2%;
         text-align: center;
     }
+    
+    i {
+        color: red;
+    }
 
-    img {
-        width: 297.5px;
-        height: 421px;
-        margin-bottom: 5%; 
+    .menu_note {
+        padding-bottom: 5%;
+    }
+
+    .menu_note h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .menu_note h4 .note_entreeplatdessert {
+        background: pink;
+        padding:0 50px;
+        text-align: center
+    }
+
+    .fin_note h5 {
+        margin-top: 5px;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .fin_note {
+        height: 80px;
+        justify-content: center;
+        display: flex;
+    }
+
+    #note_enchantee .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #note_enchantee p {
+        padding-left: 50px;
+        text-align: left;
     }
 
     /* footer */
@@ -190,6 +326,10 @@
         color: orange;
     }
 
+    h1, h2, h3, h4, h5 {
+        text-align: center;
+    }
+
     p {
         font-weight: 500;
         font-size: 24px;
@@ -218,19 +358,58 @@
 
     /* partie central */
 
-    h2 {
-        text-align: center;
-        font-size: 2rem;
-    }
-
-    #menus {
-        text-align: center;
-    }
-
-    img {
-        width: 223.125px;
-        height: 315.75px;
+    #note_enchantee {
+        background-color: pink;
         margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_note {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    
+    i {
+        color: red;
+    }
+
+    .menu_note {
+        padding-bottom: 5%;
+    }
+
+    .menu_note h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .menu_note h4 .note_entreeplatdessert {
+        background: pink;
+        padding:0 50px;
+        text-align: center
+    }
+
+    .fin_note h5 {
+        margin-top: 5px;
+        padding-left: 10px;
+        font-size: 24px;
+    }
+
+    .fin_note {
+        height: 80px;
+        justify-content: center;
+        display: flex;
+    }
+
+    #note_enchantee .prix {
+        padding-left: 20px;
+    }
+
+    #note_enchantee p {
+        padding-left: 50px;
+        text-align: left;
     }
 
     /* footer */
