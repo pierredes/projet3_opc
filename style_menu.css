@@ -187,6 +187,75 @@
         margin: 10px 50px 20px 50px;
     }
 
+    /* troisième menu */
+
+    #delice_papille {
+        width: 595px;
+        height: 842px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #edefef;
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_delice {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_delice h3 {
+        background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        font-size: 32px;
+    }
+
+    .menu_delice {
+        padding-bottom: 5%;
+    }
+
+    #delice_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #0228dd;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #delice_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #3f8ff2;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #delice_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #43aaf7;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .menu_delice h4 .delice_entreeplatdessert {
+        background: #edefef;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #delice_papille .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #delice_papille p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
     /* footer */
 
     footer {
@@ -400,6 +469,70 @@
         margin: 10px 50px 20px 50px;
     }
 
+    /* troisième menu */
+
+    #delice_papille {
+        background-color: #edefef;
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_delice {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_delice h3 {
+        background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        font-size: 32px;
+    }
+
+    .menu_delice {
+        padding-bottom: 5%;
+    }
+
+    #delice_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #0228dd;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 30px;
+    }
+
+    #delice_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #3f8ff2;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 30px;
+    }
+
+    #delice_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #43aaf7;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 30px;
+    }
+
+    .menu_delice h4 .delice_entreeplatdessert {
+        background: #edefef;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #delice_papille .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #delice_papille p {
+        padding-left: 30px;
+        text-align: left;
+    }
 
     /* footer */
 
@@ -604,7 +737,70 @@
         margin: 10px 50px 20px 50px;
     }
 
+    /* troisième menu */
 
+    #delice_papille {
+        background-color: #edefef;
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_delice {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_delice h3 {
+        background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        font-size: 32px;
+    }
+
+    .menu_delice {
+        padding-bottom: 5%;
+    }
+
+    #delice_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #0228dd;
+        line-height: 0.1em;
+        padding-bottom: 5%;
+    }
+
+    #delice_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #3f8ff2;
+        line-height: 0.1em;
+        padding-bottom: 5%;
+    }
+
+    #delice_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #43aaf7;
+        line-height: 0.1em;
+        padding-bottom: 5%;
+    }
+
+    .menu_delice h4 .delice_entreeplatdessert {
+        background: #edefef;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #delice_papille .prix {
+        padding-left: 20px;
+    }
+
+    #delice_papille p {
+        padding-left: 30px;
+        text-align: left;
+    }
+    
     /* footer */
 
     footer {
