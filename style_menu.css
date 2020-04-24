@@ -256,6 +256,61 @@
         text-align: left;
     }
 
+    /* quatrième menu */
+
+    #palette_gout {
+        width: 595px;
+        height: 842px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_palette {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_palette h3 {
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .menu_palette {
+        padding-bottom: 5%;
+    }
+
+    .menu_palette h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #fff;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+    }
+
+    .menu_palette h4 .palette_entreeplatdessert {
+        background: #fff;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #palette_gout .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #palette_gout p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
     /* footer */
 
     footer {
@@ -534,6 +589,57 @@
         text-align: left;
     }
 
+    /* quatrième menu */
+
+    #palette_gout {
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_palette {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_palette h3 {
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .menu_palette {
+        padding-bottom: 5%;
+    }
+
+    .menu_palette h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #fff;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+    }
+
+    .menu_palette h4 .palette_entreeplatdessert {
+        background: #fff;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #palette_gout .prix {
+        float: right;
+        padding-right: 30px;
+    }
+
+    #palette_gout p {
+        padding-left: 20px;
+        text-align: left;
+    }
+
     /* footer */
 
     footer {
@@ -801,6 +907,56 @@
         text-align: left;
     }
     
+    /* quatrième menu */
+
+    #palette_gout {
+        margin-bottom: 5%;
+        font-style: italic;
+    }
+
+    .debut_palette {
+        padding-top: 5%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    .debut_palette h3 {
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        font-size: 32px;
+    }
+
+    .menu_palette {
+        padding-bottom: 5%;
+    }
+
+    .menu_palette h4 {
+        font-size: 16px;
+        border-bottom: 1px solid #41963c;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+        padding-bottom: 5%;
+    }
+
+    .menu_palette h4 .palette_entreeplatdessert {
+        background: #fff;
+        padding:0 50px;
+        text-align: center;
+    }
+
+    #palette_gout .prix {
+        padding-left: 20px;
+    }
+
+    #palette_gout p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
     /* footer */
 
     footer {
