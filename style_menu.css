@@ -114,32 +114,34 @@
         height: 842px;
         margin-left: auto;
         margin-right: auto;
-        background-color: pink;
+        background-color: #fff5fe;
         margin-bottom: 5%;
-        font-style: italic;
     }
 
     .debut_chic {
         padding-top: 5%;
-        padding-bottom: 2%;
+        padding-bottom: 10%;
         text-align: center;
     }
 
-    .menu_chic{
+    .debut_chic h3 {
+        background: -webkit-linear-gradient(left, #d3904b, #a277c6, #6e4ccc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        font-size: 24px;
+    }
+
+    .menu_chic {
         padding-bottom: 5%;
     }
 
-    .menu_chic h4 {
-        font-size: 24px;
-        border-bottom: 1px solid #000;
-        line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
-    }
-
     .menu_chic h4 .chic_entreeplatdessert {
-        background: pink;
         padding:0 50px;
         text-align: center;
+        background-color: #fff5fe;
     }
 
     #chic_francaise .prix {
@@ -150,6 +152,39 @@
     #chic_francaise p {
         padding-left: 50px;
         text-align: left;
+    }
+
+    #chic_entree {
+        color: #d3904b;
+    }
+
+    #chic_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #d3904b;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #chic_plat {
+        color: #a277c6;
+    }
+
+    #chic_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #a277c6;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #chic_dessert {
+        color: #6e4ccc;
+    }
+
+    #chic_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #6e4ccc;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
     }
 
     /* footer */
@@ -232,6 +267,8 @@
 
     /* partie central */
 
+    /* Premier menu */
+
     #note_enchantee {
         background-color: pink;
         margin-bottom: 5%;
@@ -286,6 +323,83 @@
         padding-left: 50px;
         text-align: left;
     }
+
+       /* second menu */
+
+       #chic_francaise {
+        background-color: #fff5fe;
+        margin-bottom: 5%;
+    }
+
+    .debut_chic {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .debut_chic h3 {
+        background: -webkit-linear-gradient(left, #d3904b, #a277c6, #6e4ccc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        font-size: 24px;
+    }
+
+    .menu_chic {
+        padding-bottom: 5%;
+    }
+
+    .menu_chic h4 .chic_entreeplatdessert {
+        padding:0 50px;
+        text-align: center;
+        background-color: #fff5fe;
+    }
+
+    #chic_francaise .prix {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #chic_francaise p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    #chic_entree {
+        color: #d3904b;
+    }
+
+    #chic_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #d3904b;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #chic_plat {
+        color: #a277c6;
+    }
+
+    #chic_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #a277c6;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #chic_dessert {
+        color: #6e4ccc;
+    }
+
+    #chic_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #6e4ccc;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
 
     /* footer */
 
@@ -358,6 +472,8 @@
 
     /* partie central */
 
+    /* Premier menu */
+
     #note_enchantee {
         background-color: pink;
         margin-bottom: 5%;
@@ -411,6 +527,83 @@
         padding-left: 50px;
         text-align: left;
     }
+
+       /* second menu */
+
+       #chic_francaise {
+        background-color: #fff5fe;
+        margin-bottom: 5%;
+    }
+
+    .debut_chic {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .debut_chic h3 {
+        background: -webkit-linear-gradient(left, #d3904b, #a277c6, #6e4ccc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+        font-size: 24px;
+    }
+
+    .menu_chic {
+        padding-bottom: 5%;
+    }
+
+    .menu_chic h4 .chic_entreeplatdessert {
+        padding:0 50px;
+        text-align: center;
+        background-color: #fff5fe;
+    }
+
+    #chic_francaise .prix {
+        padding-left: 20px;
+    }
+
+    #chic_francaise p {
+        padding-left: 50px;
+        text-align: left;
+    }
+
+    #chic_entree {
+        color: #d3904b;
+    }
+
+    #chic_entree h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #d3904b;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+        padding-bottom: 10%; 
+    }
+
+    #chic_plat {
+        color: #a277c6;
+    }
+
+    #chic_plat h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #a277c6;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
+    #chic_dessert {
+        color: #6e4ccc;
+    }
+
+    #chic_dessert h4 {
+        font-size: 24px;
+        border-bottom: 1px solid #6e4ccc;
+        line-height: 0.1em;
+        margin: 10px 50px 20px 50px;
+    }
+
 
     /* footer */
 
