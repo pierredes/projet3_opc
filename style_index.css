@@ -62,10 +62,22 @@
         margin-bottom: 5%;
         margin-left: 15px;
         margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menus a {
         text-decoration: none;
+    }
+
+    .contenu_menu {
+        transition-duration: 400ms; 
+    }
+
+    .contenu_menu:hover {
+        transform: scale(1.25);
+        opacity: 0.5;
     }
 
     /* menu 1 */
@@ -83,7 +95,6 @@
     }
 
     #contenu_menu1 {
-        padding-top: 213.65px;
         font-style: italic;
     }
 
@@ -99,10 +110,6 @@
 
     #menu2 {
         background-color: #fff5fe;
-    }
-
-    #contenu_menu2 {
-        padding-top: 213.65px;
     }
 
     #contenu_menu2 p {
@@ -125,10 +132,6 @@
         background-color: #fbfbfb;
     }
 
-    #contenu_menu3 {
-        padding-top: 213.65px;
-    }
-
     #contenu_menu3 p {
         background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
         -webkit-background-clip: text;
@@ -147,10 +150,6 @@
 
     #menu4 {
         background-color: #fdfffd;
-    }
-
-    #contenu_menu4 {
-        padding-top: 213.65px;
     }
 
     #contenu_menu4 p {
@@ -176,18 +175,17 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 100px;
     }
 
     #prochainement p {
         padding: 10px 0;
-        margin: 0
+        margin: 0;
     }
 
     /* footer */
 
     footer {
-        /* margin-bottom: 5%; */
         height: 50px;
         position: fixed;
         bottom: 0;
@@ -267,10 +265,21 @@
         margin-bottom: 5%;
         margin-left: 15px;
         margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menus a {
         text-decoration: none;
+    }
+
+    .contenu_menu {
+        transition-duration: 400ms; 
+    }
+
+    .contenu_menu:hover {
+        transform: scale(1.25);
     }
 
     /* menu 1 */
@@ -288,7 +297,6 @@
     }
 
     #contenu_menu1 {
-        padding-top: 150.5px;
         font-style: italic;
     }
 
@@ -306,9 +314,6 @@
         background-color: #fff5fe;
     }
 
-    #contenu_menu2 {
-        padding-top: 150.5px;
-    }
 
     #contenu_menu2 p {
         background: -webkit-linear-gradient(left, #d3904b, #a277c6, #6e4ccc);
@@ -330,10 +335,6 @@
         background-color: #fbfbfb;
     }
 
-    #contenu_menu3 {
-        padding-top: 150.5px;
-    }
-
     #contenu_menu3 p {
         background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
         -webkit-background-clip: text;
@@ -352,10 +353,6 @@
 
     #menu4 {
         background-color: #fdfffd;
-    }
-
-    #contenu_menu4 {
-        padding-top: 150.5px;
     }
 
     #contenu_menu4 p {
@@ -381,7 +378,7 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 100px;
     }
 
     #prochainement p {
@@ -472,10 +469,21 @@
         margin-bottom: 5%;
         margin-left: 15px;
         margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menus a {
         text-decoration: none;
+    }
+
+    .contenu_menu {
+        transition-duration: 400ms; 
+    }
+
+    .contenu_menu:hover {
+        transform: scale(1.25);
     }
 
     /* menu 1 */
@@ -493,7 +501,6 @@
     }
 
     #contenu_menu1 {
-        padding-top: 150.5px;
         font-style: italic;
     }
 
@@ -509,10 +516,6 @@
 
     #menu2 {
         background-color: #fff5fe;
-    }
-
-    #contenu_menu2 {
-        padding-top: 150.5px;
     }
 
     #contenu_menu2 p {
@@ -535,10 +538,6 @@
         background-color: #fbfbfb;
     }
 
-    #contenu_menu3 {
-        padding-top: 150.5px;
-    }
-
     #contenu_menu3 p {
         background: -webkit-linear-gradient(left, #0228dd, #3f8ff2, #43aaf7);
         -webkit-background-clip: text;
@@ -557,10 +556,6 @@
 
     #menu4 {
         background-color: #fdfffd;
-    }
-
-    #contenu_menu4 {
-        padding-top: 150.5px;
     }
 
     #contenu_menu4 p {
@@ -594,7 +589,7 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 10%;
-        margin-bottom: 30%;
+        margin-bottom: 150px;
     }
 
     #prochainement p {
