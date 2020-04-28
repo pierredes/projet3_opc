@@ -55,7 +55,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: pink;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -115,7 +115,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: #fff5fe;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
     }
 
     .debut_chic {
@@ -195,7 +195,7 @@
         margin-left: auto;
         margin-right: auto;
         background-color: #edefef;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -263,7 +263,7 @@
         height: 842px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -314,8 +314,10 @@
     /* footer */
 
     footer {
-        margin-bottom: 5%;
         height: 50px;
+        position: fixed;
+        bottom: 0;
+        width: 1000px;
     }
 
     #mention p {
@@ -395,7 +397,7 @@
 
     #note_enchantee {
         background-color: pink;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -452,7 +454,7 @@
 
        #chic_francaise {
         background-color: #fff5fe;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
     }
 
     .debut_chic {
@@ -528,7 +530,7 @@
 
     #delice_papille {
         background-color: #edefef;
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -592,7 +594,7 @@
     /* quatrième menu */
 
     #palette_gout {
-        margin-bottom: 5%;
+        margin-bottom: 100px;
         font-style: italic;
     }
 
@@ -643,8 +645,10 @@
     /* footer */
 
     footer {
-        margin-bottom: 5%;
         height: 50px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
     #mention p {
@@ -715,7 +719,7 @@
 
     #note_enchantee {
         background-color: pink;
-        margin-bottom: 5%;
+        margin-bottom: 150px;
         font-style: italic;
     }
 
@@ -771,7 +775,7 @@
 
        #chic_francaise {
         background-color: #fff5fe;
-        margin-bottom: 5%;
+        margin-bottom: 150px;
     }
 
     .debut_chic {
@@ -847,7 +851,7 @@
 
     #delice_papille {
         background-color: #edefef;
-        margin-bottom: 5%;
+        margin-bottom: 150px;
         font-style: italic;
     }
 
@@ -910,7 +914,7 @@
     /* quatrième menu */
 
     #palette_gout {
-        margin-bottom: 5%;
+        margin-bottom: 150px;
         font-style: italic;
     }
 
@@ -960,8 +964,10 @@
     /* footer */
 
     footer {
-        margin-bottom: 5%;
         text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
 
     #mention p {
