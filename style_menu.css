@@ -13,8 +13,8 @@
     }
 
     .couleur {
-        background-color: green;
-        color: orange;
+        background-color: #579c87;
+        color: #dbc153;
     }
 
     #global {
@@ -27,7 +27,7 @@
 
     a {
         text-decoration: none;
-        color: orange;
+        color: #dbc153;
     }
 
     /* header */
@@ -357,8 +357,8 @@
     }
 
     .couleur {
-        background-color: green;
-        color: orange;
+        background-color: #579c87;
+        color: #dbc153;
     }
 
     h1, h2, h3, h4, h5 {
@@ -372,7 +372,7 @@
 
     a {
         text-decoration: none;
-        color: orange;
+        color: #dbc153;
     }
 
     /* header */
@@ -679,8 +679,8 @@
     }
 
     .couleur {
-        background-color: green;
-        color: orange;
+        background-color: #579c87;
+        color: #dbc153;
     }
 
     h1, h2, h3, h4, h5 {
@@ -694,7 +694,7 @@
 
     a {
         text-decoration: none;
-        color: orange;
+        color: #dbc153;
     }
 
     /* header */
@@ -741,7 +741,7 @@
         font-size: 24px;
         border-bottom: 1px solid #000;
         line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
+        padding-bottom: 5%;
     }
 
     .menu_note h4 .note_entreeplatdessert {
