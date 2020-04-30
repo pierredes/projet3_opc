@@ -14,7 +14,7 @@
         80% { transform: translate(-1px, -1px) rotate(1deg); }
         90% { transform: translate(1px, 2px) rotate(0deg); }
         100% { transform: translate(1px, -2px) rotate(-1deg); }
-      }
+    }
 
     /* general */
 
@@ -92,6 +92,58 @@
         border-bottom: 1px solid #000;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#prelude_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 205px;
+        background-color: black;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#prelude_souligner:hover:before {
+        visibility: visible;
+        width: 80px;
+    }
+
+    span#point_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 180px;
+        background-color: black;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#point_souligner:hover:before {
+        visibility: visible;
+        width: 135px;
+    }
+
+    span#mouvement_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 162px;
+        background-color: black;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#mouvement_souligner:hover:before {
+        visibility: visible;
+        width: 170px;
     }
 
     .menu_note h4 .note_entreeplatdessert {
@@ -177,6 +229,24 @@
         border-bottom: 1px solid #d3904b;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#appetit_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 120px;
+        background-color: #d3904b;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#appetit_souligner:hover:before {
+        visibility: visible;
+        width: 255px;
     }
 
     #chic_plat {
@@ -188,6 +258,24 @@
         border-bottom: 1px solid #a277c6;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#plaisir_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 150px;
+        background-color: #a277c6;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#plaisir_souligner:hover:before {
+        visibility: visible;
+        width: 195px;
     }
 
     #chic_dessert {
@@ -199,6 +287,24 @@
         border-bottom: 1px solid #6e4ccc;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#gourmandise_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 130px;
+        background-color: #6e4ccc;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#gourmandise_souligner:hover:before {
+        visibility: visible;
+        width: 235px;
     }
 
     /* troisième menu */
@@ -238,6 +344,24 @@
         border-bottom: 1px solid #0228dd;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#commencer_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 135px;
+        background-color: #0228dd;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#commencer_souligner:hover:before {
+        visibility: visible;
+        width: 220px;
     }
 
     #delice_plat h4 {
@@ -245,6 +369,24 @@
         border-bottom: 1px solid #3f8ff2;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#continuer_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 145px;
+        background-color: #3f8ff2;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#continuer_souligner:hover:before {
+        visibility: visible;
+        width: 205px;
     }
 
     #delice_dessert h4 {
@@ -252,6 +394,24 @@
         border-bottom: 1px solid #43aaf7;
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
+        position: relative;
+    }
+
+    span#terminer_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 150px;
+        background-color: #43aaf7;
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#terminer_souligner:hover:before {
+        visibility: visible;
+        width: 190px;
     }
 
     .menu_delice h4 .delice_entreeplatdessert {
@@ -307,6 +467,58 @@
         line-height: 0.1em;
         margin: 10px 50px 20px 50px;
         background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        position: relative;
+    }
+
+    span#esquisse_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 200px;
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#esquisse_souligner:hover:before {
+        visibility: visible;
+        width: 90px;
+    }
+
+    span#oeuvre_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 160px;
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#oeuvre_souligner:hover:before {
+        visibility: visible;
+        width: 175px;
+    }
+
+    span#sommet_souligner:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: -12px;
+        left: 150px;
+        background: -webkit-linear-gradient(left, #41963c, #cdfca2);
+        visibility: hidden;
+        transition: all 1s ease-in-out;
+    }
+
+    span#sommet_souligner:hover:before {
+        visibility: visible;
+        width: 190px;
     }
 
     .menu_palette h4 .palette_entreeplatdessert {
@@ -803,7 +1015,7 @@
         font-size: 24px;
         border-bottom: 1px solid #000;
         line-height: 0.1em;
-        padding-bottom: 5%;
+        padding-bottom: 20px;
     }
 
     .menu_note h4 .note_entreeplatdessert {
@@ -880,11 +1092,10 @@
     }
 
     #chic_entree h4 {
-        font-size: 24px;
+        font-size: 16px;
         border-bottom: 1px solid #d3904b;
         line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
-        padding-bottom: 10%; 
+        padding-bottom: 20px; 
     }
 
     #chic_plat {
@@ -892,10 +1103,10 @@
     }
 
     #chic_plat h4 {
-        font-size: 24px;
+        font-size: 16px;
         border-bottom: 1px solid #a277c6;
         line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
+        padding-bottom: 20px; 
     }
 
     #chic_dessert {
@@ -903,10 +1114,10 @@
     }
 
     #chic_dessert h4 {
-        font-size: 24px;
+        font-size: 16px;
         border-bottom: 1px solid #6e4ccc;
         line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
+        padding-bottom: 20px;
     }
 
     /* troisième menu */
@@ -941,21 +1152,21 @@
         font-size: 24px;
         border-bottom: 1px solid #0228dd;
         line-height: 0.1em;
-        padding-bottom: 5%;
+        padding-bottom: 20px;
     }
 
     #delice_plat h4 {
         font-size: 24px;
         border-bottom: 1px solid #3f8ff2;
         line-height: 0.1em;
-        padding-bottom: 5%;
+        padding-bottom: 20px;
     }
 
     #delice_dessert h4 {
         font-size: 24px;
         border-bottom: 1px solid #43aaf7;
         line-height: 0.1em;
-        padding-bottom: 5%;
+        padding-bottom: 20px;
     }
 
     .menu_delice h4 .delice_entreeplatdessert {
@@ -1001,10 +1212,9 @@
     }
 
     .menu_palette h4 {
-        font-size: 16px;
+        font-size: 24px;
         border-bottom: 1px solid #41963c;
         line-height: 0.1em;
-        margin: 10px 50px 20px 50px;
         padding-bottom: 5%;
     }
 
