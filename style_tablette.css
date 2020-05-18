@@ -39,6 +39,10 @@ a {
     color: #dbc153;
 }
 
+.police_general {
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+}
+
 /* header */
 
 header {
@@ -184,7 +188,7 @@ width: 220px;
 height: 50px;
 margin-left: auto;
 margin-right: auto;
-border-radius: 10%;
+border-radius: 20px;
 margin-bottom: 100px;
 }
 
@@ -195,8 +199,8 @@ content: '';
 }
 
 #prochainement p {
-padding-top: 10px;
-padding-left: 30px;
+padding-top: 5px;
+padding-left: 20px;
 margin: 0;
 position: absolute;
 }
