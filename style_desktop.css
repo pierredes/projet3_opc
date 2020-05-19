@@ -40,7 +40,7 @@ body {
 #global {
     margin: 0;
     padding: 0;
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     }
@@ -214,6 +214,7 @@ h1 {
 
 #prochainement p:after {
     display: inline-block;
+    -webkit-animation: PtsSuspension steps(1,end) 1s infinite;
     animation: PtsSuspension steps(1,end) 1s infinite;
     content: '';
 }
@@ -602,7 +603,7 @@ footer {
     height: 50px;
     position: fixed;
     bottom: 0;
-    width: 1200px;
+    width: 1000px;
     font-weight: 500;
     font-size: 24px;
 }
